@@ -16,10 +16,6 @@ document.getElementById("login-button").addEventListener("click",(e)=>{
   if (username === validusername && password === validpassword){
     document.getElementById("message").innerHTML ="Login successful!"
     document.getElementById("message").style.color = "white";
-
-    setTimeout( () => {
-      window.location.href = 'success.html';
-    } , 2000)
   }else{
     document.getElementById("message").innerHTML="Login failed!"
     document.getElementById("message").style.color = "red"
