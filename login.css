@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #015958;
+}
+.login-form{
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #0FC2C0;
+}
+.login-form h1{
+  margin: 0;
+  padding-bottom: 15px;
+}
+input{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+button{
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #008F8C;
+}
+.message{
+  margin-top: 15px;
+  font-size: 15px;
+  color: #fff;
+
+}
